@@ -11,6 +11,7 @@ import scala.math
 
 
 
+
 abstract class BinaryTree[A] {
 
   def value: Option[A]
