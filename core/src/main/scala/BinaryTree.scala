@@ -10,8 +10,6 @@ import scala.annotation.tailrec
 import scala.math
 
 
-
-
 abstract class BinaryTree[A] {
 
   def value: Option[A]
@@ -178,8 +176,6 @@ abstract class BinaryTree[A] {
   }
 
 }
-
-
 
 case class Branch[A](value: Option[A],
                      left: BinaryTree[A],

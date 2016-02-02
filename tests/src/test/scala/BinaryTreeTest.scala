@@ -26,7 +26,7 @@ class BinaryTreeTestAdd extends FlatSpec with Matchers {
     emptyTree should be(BTNil())
   }
 
-  it  should "return a branch with one item when add to empty tree" in {
+  it should "return a branch with one item when add to empty tree" in {
 
     val empty = BinaryTree.empty[Int]
 
@@ -211,7 +211,7 @@ class BinaryTreeTestRemove extends FlatSpec with Matchers {
   }
 }
 
-class BinaryTreeTest extends FlatSpec with Matchers{
+class BinaryTreeTest extends FlatSpec with Matchers {
   implicit val cmp =  new Order[Int] {
     override def apply(l: Int, r: Int): Ordering = l.compareTo(r) match {
       case 0  => Order.EQ
