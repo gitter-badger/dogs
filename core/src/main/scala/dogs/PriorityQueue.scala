@@ -43,7 +43,7 @@ class PriorityQueue[A](bq: List[BinomialQueueNode[A]]) {
 //  def remove(x: A): PriorityQueue[A]
 //
 //  def isEmpty: Boolean
-//  def empty(): PriorityQueue[A]
+//  def empty(): Priority Queue[A]
 }
 
 
